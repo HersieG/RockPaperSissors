@@ -1,2 +1,2 @@
-Rock paper scissors game
-Allows you to choose what you want to pick via a GUI and buttons!
+# Rock-Paper-Scissors-program
+Rock Paper Scissors game that allows you to choose your pick with buttons and a gui!
