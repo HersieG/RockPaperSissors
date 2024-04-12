@@ -8,7 +8,6 @@ from tkinter import *
 def whoWon(playerChoice):
     choices = ["rock", "paper", "scissors"]
 
-    
 
     compChoice = random.choice(choices)
 
@@ -43,7 +42,6 @@ def whoWon(playerChoice):
 
 window = Tk()
 window.resizable(height=False, width=False)
-
 screen_text = ""
 screen_Label = StringVar()
 screen_Label.set("Pick your move!")
@@ -77,7 +75,9 @@ button_Scissors = Button(frame,
                          height=2,
                          width=9,
                          command=lambda: whoWon("scissors"),
-                         font=("Comic Sans", 30))
+                         font=("Comic Sans", 30),
+                            relief = RAISED,
+                             )
 button_Scissors.grid(row=2, column=2)
 
 window.mainloop()
